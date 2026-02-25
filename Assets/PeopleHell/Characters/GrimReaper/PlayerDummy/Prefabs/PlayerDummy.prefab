@@ -108,7 +108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1803048935409206357
 Transform:
   m_ObjectHideFlags: 0
@@ -485,6 +485,10 @@ MonoBehaviour:
   _rigidbody: {fileID: 6919112289086773070}
   _walkingSpeed: 5
   _runningSpeed: 10
+  _maxSlopeAngle: 45
+  _collisionLayer:
+    serializedVersion: 2
+    m_Bits: 98304
 --- !u!1 &6486791728522966951
 GameObject:
   m_ObjectHideFlags: 0

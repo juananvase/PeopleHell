@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 1044113632}
   - component: {fileID: 1044113631}
   - component: {fileID: 1044113630}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 1528003891}
   - component: {fileID: 1528003890}
   - component: {fileID: 1528003889}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +744,7 @@ GameObject:
   - component: {fileID: 1573581249}
   - component: {fileID: 1573581248}
   - component: {fileID: 1573581247}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,13 +759,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573581245}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.38268274, z: -0, w: 0.9238798}
-  m_LocalPosition: {x: -7.5, y: 1.5, z: 5}
-  m_LocalScale: {x: 8, y: 3, z: 1}
+  m_LocalRotation: {x: -0.099045396, y: 0.3696432, z: -0.23911726, w: 0.8923995}
+  m_LocalPosition: {x: -7.5, y: 0.5, z: 5}
+  m_LocalScale: {x: 8, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1366726524}
-  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: -30}
 --- !u!65 &1573581247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 1968138290}
   - component: {fileID: 1968138289}
   - component: {fileID: 1968138288}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1196,10 +1196,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2017680128273347195, guid: 8716792c47cd9294aa5af35e44a950c1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2303470114007312240, guid: 8716792c47cd9294aa5af35e44a950c1, type: 3}
       propertyPath: m_Name
       value: PlayerDummy
