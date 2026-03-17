@@ -197,6 +197,7 @@ public class KinematicCharacterController : MonoBehaviour
     }
 #endregion
 
+#if UNITY_EDITOR
 #region Debug Functions
     private void OnDrawGizmos()
     {
@@ -207,5 +208,5 @@ public class KinematicCharacterController : MonoBehaviour
         Gizmos.DrawLine(transform.position,transform.position + collisionCheckDistance);
     }
 #endregion
-    
+#endif
 }
